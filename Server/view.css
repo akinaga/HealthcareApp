@@ -1,0 +1,77 @@
+input {
+    font-size: 16px;
+}
+
+table {
+    margin: 10px auto;
+    text-align: center;
+    border: none;
+}
+
+table td {
+    padding: 3px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    border: solid 1px #92b3d3;
+    background: #EFEFEF;
+    text-align: center;
+}
+
+table th {
+    padding: 3px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    border: solid 1px #92b3d3;
+    background: #44568c;
+    color: #fff;
+}
+
+table.t1 {
+    text-align: center;
+    border-spacing: 0px 1px;
+    border: none;
+}
+
+table.t1 td.tp1 {
+    border: none;
+    background: #ffffff;
+}
+
+table td.tg1 {
+    padding: 3px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    border: solid 1px #d39c81;
+    background: #EFEFEF;
+    text-align: right;
+}
+
+table th.tg1 {
+    padding: 3px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    border: solid 1px #d39c81;
+    background: #8c4634;
+    color: #fff;
+    text-align: center;
+}
+
+table td.tg2 {
+    padding: 3px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    border: solid 1px #a19da2;
+    background: #EFEFEF;
+    text-align: right;
+}
+
+table th.tg2 {
+    padding: 3px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    border: solid 1px #a19da2;
+    background: #000000;
+    color: #fff;
+}
