@@ -1,6 +1,51 @@
-input {
-    font-size: 16px;
+body {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000;
+    font-family: "Meiryo";
 }
+
+textarea {
+    font-family: "Meiryo";
+    font-size: 12px;
+}
+
+input.submit {
+    font-family: "Meiryo";
+    font-size: 16px;
+    border-radius:5px;
+    box-shadow:1px 1px 1px #999;
+    /*text-shadow:0px 0px 1px #444;*/
+}
+
+input {
+    font-family: "Meiryo";
+    font-size: 12px;
+    /*border-radius:5px;*/
+    /*box-shadow:1px 1px 1px #999;*/
+    /*text-shadow:0px 0px 1px #444;*/
+    border:0;
+    border:solid 1px #ccc;
+}
+
+button {
+    font-family: "Meiryo";
+    font-size: 12px;
+    border-radius:8px;
+    box-shadow:1px 1px 0px #999;
+    /*font-weight: bold;*/
+    /*text-shadow:0px 0px 1px #555;*/
+}
+
+select {
+    font-family: "Meiryo";
+    font-size: 12px;
+    border-radius:5px;
+    box-shadow:1px 1px 1px #999;
+    /*text-shadow:0px 0px 1px #444;*/
+}
+
 
 table {
     margin: 10px auto;
@@ -12,7 +57,7 @@ table td {
     padding: 3px 10px;
     font-size: 14px;
     vertical-align: middle;
-    border: solid 1px #92b3d3;
+    border: solid 1px #bebebe;
     background: #EFEFEF;
     text-align: center;
 }
@@ -22,8 +67,8 @@ table th {
     font-size: 14px;
     vertical-align: middle;
     text-align: center;
-    border: solid 1px #92b3d3;
-    background: #44568c;
+    border: solid 1px #bebebe;
+    background: #5a5a5a;
     color: #fff;
 }
 

@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>**title**</title>
-    <LINK rel="stylesheet" type="text/css" href="billing.css">
+    <title>Experimental data download</title>
+    <LINK rel="stylesheet" type="text/css" href="view.css">
+
+<script language="JavaScript" type="text/javascript">
+function AllChecked(){
+  var check =  document.form.all.checked;
+
+  for (var i=0; i<document.form.flag.length; i++){
+    document.form.flag[i].checked = check;
+  }
+}
+</script>
 </head>
 <body>
 <center>
 <table class='t1'>
     <tr>
-        <td class='tp1' valign=bottom align=center height=200px>
+        <td class='tp1' valign=bottom align=center>
             <img src="view.png" width="600">
                 </td>
     </tr>
 </table>
 
-    <form>
+<form name="form" method="POST">
 <table class='t1'>
     <tr>
 	<td class='tp1' valign=middle align=center width=1000px>
@@ -25,9 +35,8 @@
 </tr>
 </table>
 <p align=center>
-    <input class="submit" type="submit" name="download" value="まとめてダウンロード" style="WIDTH: 200px; HEIGHT: 40px">
-    <input class="submit" type="submit" name="delete" value="まとめて削除" style="WIDTH: 100px; HEIGHT: 40px">
-    <input class="submit" type="submit" name="delete_flag" value="ダウンロードフラグ削除" style="WIDTH: 100px; HEIGHT: 40px">
+    <input class="submit" type="submit" name="download" value="まとめてダウンロード" style="WIDTH: 300px; HEIGHT: 40px">
+    <input class="submit" type="submit" name="delete" value="まとめて削除" style="WIDTH: 200px; HEIGHT: 40px">
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input class="submit" type="reset" value="Reset" style="WIDTH: 80px; HEIGHT: 40px">
 </p>
